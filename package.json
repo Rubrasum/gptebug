@@ -1,4 +1,14 @@
 {
+  "name": "gptebug",
+  "version": "0.1",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "gptebug": "./scripts/bin.js"
+  },
   "dependencies": {
     "clipboardy": "^4.0.0",
     "glob": "^10.3.10"
