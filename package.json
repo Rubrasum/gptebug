@@ -1,16 +1,22 @@
 {
   "name": "gptebug",
-  "version": "0.1",
+  "version": "0.1.4",
   "type": "module",
   "license": "MIT",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.10.0"
   },
-  "bin": {
-    "gptebug": "./scripts/bin.js"
+  "scripts": {
+    "start": "ts-node ./scripts/bin.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "clipboardy": "^4.0.0",
     "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.0.0", // Replace with the latest version
+    "typescript": "^4.0.0" // Replace with the latest version
   }
 }
